@@ -55,18 +55,6 @@ fn view(_app: &App, _model: &Model, frame: Frame) {
     let mut col_count = 1.0;
     let mut row_count = 1.0;
     let mut more = true;
-    let _ = [
-        PALEGOLDENROD,
-        MAROON,
-        LIGHTYELLOW,
-        GREY,
-        PURPLE,
-        ROYALBLUE,
-        SEASHELL,
-        SEASHELL,
-        SPRINGGREEN,
-        VIOLET,
-    ];
 
     let dr = Rect::from_w_h(r.w() / 1.2, r.h() / 1.2);
     draw.rect().w_h(dr.w(), dr.h()).color(_model.grid_color);
